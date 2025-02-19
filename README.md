@@ -1,4 +1,4 @@
-# Kanban Project
+# Kanban Project (2020)
 
 ## Overview
 This is a Kanban board application built using C# with a GUI designed in XAML and SQLite as the database. The application allows users to create, manage, and track tasks across different stages of a project.
@@ -14,25 +14,6 @@ This is a Kanban board application built using C# with a GUI designed in XAML an
 - **Programming Language:** C#
 - **GUI Framework:** XAML (WPF or UWP)
 - **Database:** SQLite
-
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/waleedab1/Kanban.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd Kanban
-   ```
-3. Open the solution file (`.sln`) in Visual Studio.
-4. Restore dependencies:
-   ```sh
-   dotnet restore
-   ```
-5. Build and run the application:
-   ```sh
-   dotnet run
-   ```
 
 ## Database Setup
 SQLite is used as the database for storing tasks. The database file (`kanban.db`) is automatically generated in the application's directory.
