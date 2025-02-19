@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanProject", "Backend\KanbanProject.csproj", "{54D4CA44-F049-47DE-BF74-81FC80F867FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{15EDF933-7F55-4B11-8C22-F2E8E171508B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{435DF95B-CBAA-46BD-BDF9-D95EADDB65AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54D4CA44-F049-47DE-BF74-81FC80F867FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D4CA44-F049-47DE-BF74-81FC80F867FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D4CA44-F049-47DE-BF74-81FC80F867FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D4CA44-F049-47DE-BF74-81FC80F867FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EDF933-7F55-4B11-8C22-F2E8E171508B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EDF933-7F55-4B11-8C22-F2E8E171508B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EDF933-7F55-4B11-8C22-F2E8E171508B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EDF933-7F55-4B11-8C22-F2E8E171508B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435DF95B-CBAA-46BD-BDF9-D95EADDB65AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435DF95B-CBAA-46BD-BDF9-D95EADDB65AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435DF95B-CBAA-46BD-BDF9-D95EADDB65AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435DF95B-CBAA-46BD-BDF9-D95EADDB65AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC11664D-40A8-459C-AE51-A6321292D1F6}
+	EndGlobalSection
+EndGlobal
